@@ -1,11 +1,11 @@
-# Ercan selamlar
+#Ercan test 2
 trigger:
 - '*'
 
 pool:
   vmImage: 'ubuntu-18.04'
   demands:
-  - npm
+  - npm3
 
 variables:
   buildConfiguration: 'Release'
